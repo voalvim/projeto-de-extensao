@@ -1,0 +1,77 @@
+/*Reseta as margens internas e externas padroes do body, h1, h2, h3 e p*/
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+/*Muda a cor de fundo e a fonte do body*/
+body {
+  background-color: #f5c8ed96;
+  font-family: Arial, sans-serif;
+}
+/*Adiciona o fundo colorido na barra de navegacao e alinha os itens no centro com o display flex + align items center + justify content center*/
+.navbar {
+  background-color: #724570;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Muda os links (anchors) da barra de navegacao, mudando a posicao com o float, o display com o block, a cor do texto com o color, o alinhamento do texto com o text-align, a margem interna com o padding, remove a decoracao padrao de link com o text decoration e adiciona uma transicao de 0.75 segundos para ser ativada quando o mouse passar por cima do link.*/
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: 0.75s;
+}
+/*Muda a cor do fundo do link especificamente quando o mouse passa por cima, com o tempo de transicao definido previamente de 0.75 segundos*/
+.navbar a:hover {
+  background-color: #4e054b;
+}
+/*Define um espacamento interno padrao para todas as sections (com a classe section) de 60px*/
+.section {
+  padding: 60px;
+}
+/*Define uma cor e peso especifico para todos os elementos com a classe rosaBold*/
+.rosaBold {
+  color: rgb(133, 17, 84);
+  font-weight: bold;
+}
+/*Define uma cor e estilo especifico para todos os elementos com a classe rosaItalic*/
+.rosaItalic {
+  color: rgb(133, 17, 84);
+  font-style: italic;
+}
+/*Adiciona um espacamento interno vertical de 30px e horizontal de 15px, e um espacamento entre as letras de 1px para todos os h1 e h2.*/
+h1,
+h2 {
+  padding: 20px 15px;
+  letter-spacing: 1px;
+}
+/*Muda o distanciamento e o alinhamento o texto de todos os paragrafos contidos em elementos com a classe section*/
+.section p {
+  line-height: 1.5;
+  text-align: justify;
+}
+/*Muda a fonte e o tamanho de todos os paragrafos contidos no id section4*/
+#section4 p {
+  font-weight: bold;
+  font-size: 20px;
+}
+/*Adiciona um espacamento externo vertical de 25px para todos os itens da lista*/
+li {
+  margin: 25px 0;
+  font-weight: 700;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
