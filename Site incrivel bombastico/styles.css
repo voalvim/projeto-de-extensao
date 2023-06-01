@@ -1,3 +1,7 @@
+/*Faz com que quando o usuario clique em um link na navbar, a pagina role de maneira suave*/
+html {
+  scroll-behavior: smooth;
+}
 /*Reseta as margens internas e externas padroes do body, h1, h2, h3 e p*/
 body,
 h1,
