@@ -16,6 +16,26 @@ body {
   background-color: #f5c8ed96;
   font-family: Arial, sans-serif;
 }
+#backToTop {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #dd15dd;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#backToTop:hover {
+  background-color: #790b7921;
+}
 /*Adiciona o fundo colorido na barra de navegacao e alinha os itens no centro com o display flex + align items center + justify content center*/
 .navbar {
   background-color: #724570;

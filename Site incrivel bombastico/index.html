@@ -6,6 +6,22 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <button id="backToTop" title="Go to top">Voltar ao Inicio</button>
+    <script>
+      const backToTopButton = document.getElementById("backToTop")
+
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 100) {
+          backToTopButton.style.display = "block"
+        } else {
+          backToTopButton.style.display = "none"
+        }
+      })
+
+      backToTopButton.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" })
+      })
+    </script>
     <!-- navegacao -->
     <div class="navbar">
       <a href="#home">Inicio</a>
