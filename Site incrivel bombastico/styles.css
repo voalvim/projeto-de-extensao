@@ -20,7 +20,7 @@ body {
   display: none;
   position: fixed;
   top: 20px;
-  left: 50%;
+  left: 44%;
   transform: translateX(-50%);
   z-index: 99;
   font-size: 18px;
@@ -31,6 +31,19 @@ body {
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 #backToTop:hover {
