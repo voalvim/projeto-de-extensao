@@ -13,7 +13,7 @@ p {
 }
 /*Muda a cor de fundo e a fonte do body*/
 body {
-  background-color: #f5c8ed96;
+  background: linear-gradient(to bottom, #ebdddd, #ce90b0);
   font-family: Arial, sans-serif;
 }
 #backToTop {
@@ -24,7 +24,7 @@ body {
   transform: translateX(-50%);
   z-index: 99;
   font-size: 18px;
-  border: none;
+  border-color: #4e054b;
   outline: none;
   background-color: #dd15dd;
   color: white;
@@ -107,7 +107,7 @@ li {
   font-weight: 700;
 }
 .footer {
-  background-color: #333;
+  background-color: #a55bbb;
   color: white;
   text-align: center;
   padding: 20px;
