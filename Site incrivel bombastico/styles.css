@@ -20,7 +20,7 @@ body {
   display: none;
   position: fixed;
   top: 20px;
-  left: 44%;
+  left: 46%;
   transform: translateX(-50%);
   z-index: 99;
   font-size: 18px;
@@ -73,7 +73,7 @@ body {
 }
 /*Define um espacamento interno padrao para todas as sections (com a classe section) de 60px*/
 .section {
-  padding: 60px;
+  padding: 60px 300px;
 }
 /*Define uma cor e peso especifico para todos os elementos com a classe rosaBold*/
 .rosaBold {
