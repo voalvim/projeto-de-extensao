@@ -75,6 +75,15 @@ body {
 .section {
   padding: 60px 300px;
 }
+.imagem {
+  display: flex;
+  align-items: center;
+}
+img {
+  width: 450px;
+  margin-left: 30px;
+}
+
 /*Define uma cor e peso especifico para todos os elementos com a classe rosaBold*/
 .rosaBold {
   color: rgb(133, 17, 84);
